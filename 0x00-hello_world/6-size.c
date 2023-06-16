@@ -2,7 +2,7 @@
 /**
  * main - the main function prints the size of data types
  *
- * main Returns 0 when successful
+ * main Returns: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
