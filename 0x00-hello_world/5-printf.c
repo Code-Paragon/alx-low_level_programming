@@ -1,11 +1,13 @@
 #include <stdio.h>
-int main(void) {
-	/**
-	 * main - the main functioun this is used to print specific text with printf
-	 * No parameters
-	 *
-	 * Returns 0 with each succesfull run
-	 */
+
+/**
+ * main - prints the phrase with proper grammar,
+ * but the outcome is a piece of art,
+ *
+ * Return: 0 if exited properly, non-zero otherwise
+ */
+int main(void)
+{
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
