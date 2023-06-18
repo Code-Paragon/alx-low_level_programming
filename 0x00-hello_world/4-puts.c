@@ -8,5 +8,5 @@ int main(void)
 	 * This block is meant to print specific text
 	 */
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
