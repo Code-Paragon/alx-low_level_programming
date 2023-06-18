@@ -2,10 +2,10 @@
 int main(void)
 {
 	/**
-	 * main - this is the main function for printing
+	 * main - This block is meant to print specific text
 	 * no parameters
 	 *
-	 * This block is meant to print specific text
+	 * Return: 0 upon successful run
 	 */
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
