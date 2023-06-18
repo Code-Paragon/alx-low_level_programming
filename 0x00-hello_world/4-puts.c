@@ -3,7 +3,6 @@ int main(void)
 {
 	/**
 	 * main - This block is meant to print specific text
-	 * no parameters
 	 *
 	 * Return: 0 upon successful run
 	 */
