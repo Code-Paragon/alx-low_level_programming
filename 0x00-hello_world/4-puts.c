@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(void) {
+int main(void)
+{
 	/**
 	 * main - this is the main function for printing
 	 * no parameters
