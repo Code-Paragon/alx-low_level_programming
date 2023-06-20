@@ -2,6 +2,8 @@
 /**
  * print_alphabet - this prints all the alphabets in lower case 10 times
  *
+ * Description: this prints all the alphabets in lower case 10 times
+ *
  * Return: void does not return anything
  */
 void print_alphabet_x10(void)
