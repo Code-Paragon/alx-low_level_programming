@@ -6,7 +6,7 @@
  */
 void print_alphabet(void)
 {
-	const char *str = "abcdefghiklmnopqrstuvwxyz";
+	const char *str = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
