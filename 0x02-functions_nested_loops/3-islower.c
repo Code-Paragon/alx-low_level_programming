@@ -7,17 +7,18 @@
 int _islower(int c)
 {
 	const char *str = "abcdefghijklmnopqrstuvwxyz";
-	int i = 0;
+	int i = 0, m;
 
 	while (str[i] != '\0')
 	{
 		if (str[i] == c)
 		{
-			return (1);
+			m = 1;
 			break;
 		}
 		else
-			return (0);
+			m = 0;
 		i++;
 	}
+	return m;
 }
