@@ -7,15 +7,16 @@
  */
 int _isalpha(int c)
 {
-	const char *str = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
-	int i = 0, m = 0;
-
-	while (str[i] != '\0' && m == 0)
+	if (c >= 'a' && c <= 'z')
 	{
-		if (str[i] == c)
-		{
-			m = 1;
-		}
+		return (1);
 	}
-	return (m);
+	else if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
