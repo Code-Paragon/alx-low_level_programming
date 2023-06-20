@@ -3,7 +3,7 @@
  * print_sign -  a function that prints the sign of a number.
  * @n: the number to be evaluated
  *
- * Return: 1 and print + if n is greater than 0, 0 and prints 0 if n is 0, -1 and prints - if n is less than 0.
+ * Return: 1 print+ 0,-1
  */
 int print_sign(int n)
 {
