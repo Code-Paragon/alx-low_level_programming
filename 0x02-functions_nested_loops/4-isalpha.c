@@ -8,16 +8,14 @@
 int _isalpha(int c)
 {
 	const char *str = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz";
-	int i = 0, m;
-	while (str[i] != '\0')
+	int i = 0, m = 0;
+
+	while (str[i] != '\0' && m == 0)
 	{
 		if (str[i] == c)
 		{
 			m = 1;
-			break;
 		}
-		else
-			m = 0;
 	}
 	return (m);
 }
