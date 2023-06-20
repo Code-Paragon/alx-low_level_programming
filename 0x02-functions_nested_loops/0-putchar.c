@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - This is used to print a string with out any standard library functions
  *
