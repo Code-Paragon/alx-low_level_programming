@@ -7,7 +7,7 @@
 void print_alphabet_x10(void)
 {
         const char *str = "abcdefghijklmnopqrstuvwxyz";
-        int i;
+        int i, m;
 
 	for (m = 0; m < 10; m++)
 	{
