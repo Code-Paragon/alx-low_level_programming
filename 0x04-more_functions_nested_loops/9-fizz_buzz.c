@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 /**
  * main - the function is used to carry out the code
  * @i: the loop and number count
@@ -30,4 +31,5 @@ int main (void)
 			printf("%d ", i);
 	}
 	printf("\n");
+	return (0);
 }
