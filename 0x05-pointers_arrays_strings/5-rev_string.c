@@ -18,8 +18,7 @@ void rev_string(char *s)
 	{
 		k = (m - 1) - l;
 		q = s[l];
-		r = s[k];
-		s[l] = r;
+		s[l] = s[k];
 		s[k] = q;
 	}
 }
