@@ -23,12 +23,12 @@ char *_strncat(char *dest, char *src, int n)
 		for (k = 0; k <= m; k++)
 		{
 			dest[i] = src[k];
-			i++
+			i++;
 		}
 	}
 	else
 	{
-		for (k = 0; k <= (n - 1); k++;)
+		for (k = 0; k <= (n - 1); k++)
 		{
 			dest[i] = src[k];
 			i++;
