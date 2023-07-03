@@ -26,7 +26,7 @@ char *_strncpy(char *dest, char *src, int n)
 			if (l <= ((m - 1) + i))
 			{
 				dest[l] = src[k];
-				l++
+				l++;
 			}
 			else
 			{
@@ -40,7 +40,7 @@ char *_strncpy(char *dest, char *src, int n)
 		for (k = 0; k <= (n - 1); k++)
 		{
 			dest[i] = src[k];
-			i++:
+			i++;		
 		}
 	}
 	return (dest);
