@@ -25,12 +25,12 @@ char *_strncpy(char *dest, char *src, int n)
 		{
 			if (l <= ((m - 1) + i))
 			{
-				dest[l] = src[k];
+				dest[k] = src[k];
 				l++;
 			}
 			else
 			{
-				dest[l] = '\0';
+				dest[k] = '\0';
 				l++;
 			}
 		}
@@ -39,7 +39,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		for (k = 0; k <= (n - 1); k++)
 		{
-			dest[i] = src[k];
+			dest[k] = src[k];
 			i++;		
 		}
 	}
