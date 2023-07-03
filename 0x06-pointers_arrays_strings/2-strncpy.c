@@ -40,7 +40,7 @@ char *_strncpy(char *dest, char *src, int n)
 		for (k = 0; k <= (n - 1); k++)
 		{
 			dest[k] = src[k];
-			i++;		
+			i++;
 		}
 	}
 	return (dest);
