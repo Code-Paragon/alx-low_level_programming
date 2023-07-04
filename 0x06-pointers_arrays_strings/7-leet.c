@@ -19,8 +19,6 @@ char *leet(char *a)
 				a[i] = k[j];
 				break;
 			}
-			else 
-				continue;
 		}
 	}
 	return (a);
