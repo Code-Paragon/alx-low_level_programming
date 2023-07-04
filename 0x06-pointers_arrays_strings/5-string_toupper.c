@@ -19,11 +19,12 @@ char *string_toupper(char *a)
 				o = j - k;
 				if (v == o)
 				{
-					c = l;
+					a[i] = l;
 					break;
 				}
 			}
 		}
+		i++;
 	}
 	return (a);
 }
