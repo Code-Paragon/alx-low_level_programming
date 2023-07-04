@@ -31,12 +31,12 @@ int _strcmp(char *s1, char *s2)
 		{
 			if (l < m)
 			{
-				return (-1);
+				return (-13);
 				break;
 			}
 			else
 			{
-				return (1);
+				return (13);
 				break;
 			}
 		}
