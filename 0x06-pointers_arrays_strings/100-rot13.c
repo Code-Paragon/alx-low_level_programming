@@ -8,7 +8,7 @@ char *rot13(char *a)
 {
 	int i, j;
 	char *g = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char *u = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+//	char *u = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; a[i] != '\0'; a++)
 	{
@@ -16,7 +16,7 @@ char *rot13(char *a)
 		{
 			if (a[i] == g[j])
 			{
-				a[i] = u[j];
+				a[i] = a[i] + 13;
 			}
 		}
 	}
