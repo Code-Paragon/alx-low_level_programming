@@ -8,7 +8,6 @@ char *rot13(char *a)
 {
 	int i, j;
 	char *g = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-//	char *u = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
 	for (i = 0; a[i] != '\0'; a++)
 	{
