@@ -1,5 +1,5 @@
 /**
- * string_toupper - function that changes all lowercase letters of a string to uppercase.
+ * string_toupper - function changes all lower to uppercase.
  * @a: array
  *
  * Return: char
