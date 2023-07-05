@@ -9,7 +9,7 @@ void print_number(int n)
 {
 	unsigned int k1;
 
-	if (k1 < 0)
+	if (n < 0)
 	{
 		k1 = -n;
 		_putchar('-');
@@ -18,7 +18,7 @@ void print_number(int n)
 	{
 		k1 = n;
 	}
-	if (n / 10)
+	if (k1 / 10)
 	{
 		print_number(n / 10);
 	}
