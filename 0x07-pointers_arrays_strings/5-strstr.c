@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /**
  * _strstr - function that locates a substring.
  * @haystack: str
