@@ -11,7 +11,7 @@
 char *_strchr(char *s, char c)
 {
 	int i = 0, m = 0;
-	char *e;
+	char *e, y = ' ';
 
 	while (s[i] != '\0')
 	{
@@ -29,6 +29,6 @@ char *_strchr(char *s, char c)
 	}
 	else
 	{
-		return (' ');
+		return (y);
 	}
 }
