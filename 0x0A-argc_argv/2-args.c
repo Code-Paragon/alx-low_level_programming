@@ -1,4 +1,4 @@
-#include <stdio.H>
+#include <stdio.h>
 /**
  * main - main func
  * @argc: int
