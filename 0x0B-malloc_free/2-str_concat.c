@@ -30,7 +30,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		a[j] = s1[j];
 	}
-	a[k] = ' ';
 	for (p = 0; p < l; p++)
 	{
 		a[(k + p + 1)] = s2[p];
