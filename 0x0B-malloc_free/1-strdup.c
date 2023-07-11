@@ -22,6 +22,10 @@ char *_strdup(char *str)
 		i++;
 	}
 	a = (char *)malloc(k * sizeof(char));
+	if (a == NULL)
+	{
+		return (NULL);
+	}
 	for (l = 0; l < k; l++)
 	{
 		a[l] = str[l];
