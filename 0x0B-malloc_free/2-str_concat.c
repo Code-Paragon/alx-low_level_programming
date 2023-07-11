@@ -44,15 +44,17 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
+	else
+	{
 	for (m = 0; m < j; m++)
 	{
 		a[m] = s1[m];
 	}
-	a[j] = ' ';
 	for (p = 0; p < l; p++)
 	{
 		a[(j + p + 1)] = s2[p];
 	}
 	a[(j + l + 1)] = '\0';
+	}
 	return (a);
 }
