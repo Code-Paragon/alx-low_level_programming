@@ -52,7 +52,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (p = 0; p < l; p++)
 	{
-		a[(j + p + 1)] = s2[p];
+		a[(j + p)] = s2[p];
 	}
 	a[(j + l + 1)] = '\0';
 	}
