@@ -8,32 +8,53 @@
  */
 char *str_concat(char *s1, char *s2)
 {
-	int i = 0, k = 0, l = 0, j, y = 0, p;
-	char *a;
+	#include <stdlib.h>
+#include "main.h"
 
-	while (s1[i] != '\0')
-	{
-		k++;
-		i++;
-	}
-	while (s2[y] != '\0')
-	{
-		l++;
-		y++;
-	}
-	a = (char *)malloc((k + l + 2) * sizeof(char));
-	if (a == NULL)
-	{
+/**
+ * *str_concat - concatenates two strings
+ * @s1: string to concatenate
+ * @s2: other string to concatenate
+ *
+ * Return: pointer to the new string created (Success), or NULL (Error)
+ */
+char *str_concat(char *s1, char *s2)
+{
+	char *s3;
+	unsigned int i = 0, j = 0, len1 = 0, len2 = 0;
+
+	while (s1 && s1[len1])
+		len1++;
+	while (s2 && s2[len2])
+		len2++;
+
+	s3 = malloc(sizeof(char) * (len1 + len2 + 1));
+	if (s3 == NULL)
 		return (NULL);
-	}
-	for (j = 0; j < k; j++)
+
+	i = 0;
+	j = 0;
+
+	if (s1)
 	{
-		a[j] = s1[j];
+		while (i < len1)
+		{
+			s3[i] = s1[i];
+			i++;
+		}
 	}
-	for (p = 0; p < l; p++)
+
+	if (s2)
 	{
-		a[(k + p + 1)] = s2[p];
+		while (i < (len1 + len2))
+		{
+			s3[i] = s2[j];
+			i++;
+			j++;
+		}
 	}
-	a[k + l + 1] = '\0';
-	return (a);
+	s3[i] = '\0';
+
+	return (s3);
+}
 }
