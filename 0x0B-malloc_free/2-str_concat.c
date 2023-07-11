@@ -27,21 +27,21 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	if (j == 0)
+	if ((j == 0) || (s1 == NULL))
 	{
 		for (r = 0; r < l; r++)
 		{
 			a[r] = s2[r];
 		}
 	}
-	else if (l == 0)
+	else if ((l == 0) || (s2 == NULL))
 	{
 		for (w = 0; w < j; w++)
 		{
 			a[w] = s1[w];
 		}
 	}
-	else if ((j == 0) && (l == 0))
+	else if (((j == 0) && (l == 0)) || ((s1 == NULL) && (s2 == NULL)))
 	{
 		return (NULL);
 	}
