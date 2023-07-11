@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 /**
  * _strdup - returns ptr to a alloc space,contains copy of str given as param
  * @str: string copied
