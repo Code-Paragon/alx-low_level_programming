@@ -11,6 +11,11 @@ char *_strdup(char *str)
 	int i = 0, k = 1, l;
 	char *a;
 
+	if (str == NULL)
+	{
+		printf("failed to allocate memory\n");
+                return (NULL);
+	}
 	while (str[i] != '\0')
 	{
 		k++;
