@@ -1,3 +1,5 @@
+#ifndef DOG_H
+#define DOG_H
 /**
  * struct dog - struct with members
  * @name: First member
@@ -6,8 +8,9 @@
  *
  * Description: learning structs
  */
-struct dog{
+typedef struct dog{
 	char *name;
 	float age;
 	char *owner;
-}
+}Dog;
+#endif
