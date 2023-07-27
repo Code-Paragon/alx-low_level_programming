@@ -1,6 +1,7 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
 
+#include <stddef.h>
 int _putchar(char c);
 /**
  * struct list_s - singly linked list
