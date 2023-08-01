@@ -5,7 +5,7 @@
 /**
  * add_nodeint - function adds a new node at the beginning of a listint_t list
  * @head: list head ptr
- * @n: number to be contained in node
+ * @ni: number to be contained in node
  *
  * Return: new node address
  */
