@@ -9,20 +9,20 @@
  *
  * Return: new node address
  */
-listint_t *add_nodeint(listint_t **head, const int n)
+listint_t *add_nodeint(listint_t **head, const int ni)
 {
 	listint_t *ptr;
 	listint_t *current;
 
+	if (!head)
+		return (NULL);
 	ptr = *head;
-	if (ptr == NULL || !head)
-		return (NULL);
 	current = malloc(sizeof(listint_t));
-	if (current == NULL)
+	if (!current)
 		return (NULL);
-	current->n = n;
+	current->n = ni;
 	current->next = ptr;
 	*head = current;
 
-	return (current);
+	return (*head);
 }
