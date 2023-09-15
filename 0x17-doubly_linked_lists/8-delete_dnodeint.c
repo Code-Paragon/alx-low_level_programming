@@ -1,11 +1,12 @@
 #include "lists.h"
 
 /**
-  * delete_dnodeint_at_index - delete at index in a DBL
-  * @head: the head of the linked list
-  * @index: the index
-  * Return: 1 on succes and -1 else
-  */
+ * delete_dnodeint_at_index - delete at index in a DBL
+ * @head: the head of the linked list
+ * @index: the index
+ *
+ * Return: 1 on succes and -1 else
+ */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
 	dlistint_t *new, *last, *back;
